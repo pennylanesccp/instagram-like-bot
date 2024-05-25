@@ -18,3 +18,5 @@ session = L.context._session
 def like_post(post):
     post_url = f"https://instagram.com/web/likes/{post.mediaid}/like/"
     response = session.post(post_url)
+    if response.status_code == 200:
+        print(f"Liked post: {post.shortcode}")

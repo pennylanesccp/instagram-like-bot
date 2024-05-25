@@ -11,4 +11,5 @@ if not INSTAGRAM_USERNAME or not INSTAGRAM_PASSWORD or not TARGET_USERNAME:
     exit()
 
 L = instaloader.Instaloader()
-
+L.login(INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD)
+profile = instaloader.Profile.from_username(L.context, TARGET_USERNAME)

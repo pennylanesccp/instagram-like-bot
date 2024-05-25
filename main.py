@@ -14,3 +14,6 @@ L = instaloader.Instaloader()
 L.login(INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD)
 profile = instaloader.Profile.from_username(L.context, TARGET_USERNAME)
 session = L.context._session
+
+def like_post():
+    

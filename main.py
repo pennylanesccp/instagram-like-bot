@@ -21,4 +21,4 @@ def like_post(post):
     if response.status_code == 200:
         print(f"Liked post: {post.shortcode}")
     else:
-        print(f"Failed to like post: {post.shortcode}")
+        print(f"Failed to like post: {post.shortcode}, Status code: {response.status_code}")

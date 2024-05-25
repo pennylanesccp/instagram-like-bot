@@ -27,3 +27,5 @@ def like_post(post):
 for posts in profile.get_posts():
     like_post(post)
     time.sleep(30)
+
+print(f"Liked all posts of the user: {TARGET_USERNAME}")

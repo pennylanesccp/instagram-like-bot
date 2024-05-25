@@ -16,4 +16,4 @@ profile = instaloader.Profile.from_username(L.context, TARGET_USERNAME)
 session = L.context._session
 
 def like_post(post):
-    post_url = ""
+    post_url = f"https://instagram.com/web/likes/{post.mediaid}/like/"

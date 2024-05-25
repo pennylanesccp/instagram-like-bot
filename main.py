@@ -22,3 +22,8 @@ def like_post(post):
         print(f"Liked post: {post.shortcode}")
     else:
         print(f"Failed to like post: {post.shortcode}, Status code: {response.status_code}")
+
+
+for posts in profile.get_posts():
+    like_post(post)
+    time.sleep(30)

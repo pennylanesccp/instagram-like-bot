@@ -20,3 +20,5 @@ def like_post(post):
     response = session.post(post_url)
     if response.status_code == 200:
         print(f"Liked post: {post.shortcode}")
+    else:
+        print(f"Failed to like post: {post.shortcode}")

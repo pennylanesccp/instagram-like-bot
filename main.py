@@ -17,3 +17,4 @@ session = L.context._session
 
 def like_post(post):
     post_url = f"https://instagram.com/web/likes/{post.mediaid}/like/"
+    response = session.post(post_url)

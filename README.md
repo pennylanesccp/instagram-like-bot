@@ -36,4 +36,4 @@ python3 main.py
 This script is for educational purposes only. Use it responsibly and at your own risk. The author is not responsible for any misuse or damage caused by this script.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT](https://github.com/manuemmanuel/Instagram-Like-Bot/blob/main/LICENSE) License.

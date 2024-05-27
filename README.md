@@ -24,4 +24,9 @@ This Python script uses the `instaloader` library to like all posts of a specifi
 INSTAGRAM_USERNAME = "your_username"
 INSTAGRAM_PASSWORD = "your_password"
 ```
-   
+
+2. Run the script:
+
+```bash
+python3 main.py
+```

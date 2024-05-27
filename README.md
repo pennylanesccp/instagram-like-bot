@@ -31,3 +31,6 @@ INSTAGRAM_PASSWORD = "your_password"
 python3 main.py
 ```
 3. When prompted, enter the target username whose posts you want to like.
+
+## Disclaimer
+This script is for educational purposes only. Use it responsibly and at your own risk. The author is not responsible for any misuse or damage caused by this script.

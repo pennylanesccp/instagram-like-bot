@@ -30,3 +30,4 @@ INSTAGRAM_PASSWORD = "your_password"
 ```bash
 python3 main.py
 ```
+3. When prompted, enter the target username whose posts you want to like.

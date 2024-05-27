@@ -34,3 +34,6 @@ python3 main.py
 
 ## Disclaimer
 This script is for educational purposes only. Use it responsibly and at your own risk. The author is not responsible for any misuse or damage caused by this script.
+
+## License
+This project is licensed under the MIT License.

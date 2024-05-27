@@ -18,5 +18,6 @@ This Python script uses the `instaloader` library to like all posts of a specifi
 
 ## Usage
 
+1. Set your Instagram username and password in the script:
 
    

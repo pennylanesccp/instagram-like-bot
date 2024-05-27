@@ -16,5 +16,7 @@ This Python script uses the `instaloader` library to like all posts of a specifi
    ```
 2. Clone this repository or download the script.
 
+## Usage
+
 
    

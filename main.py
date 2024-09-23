@@ -30,7 +30,7 @@ def like_bot(INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD, TARGET_USERNAME, n=0):
 
     for post in profile.get_posts():
         like_post(post)
-        time.sleep(10)
+        time.sleep(5)
 
         i+=1
 

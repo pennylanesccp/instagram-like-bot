@@ -24,7 +24,7 @@ def like_bot(INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD, TARGET_USERNAME, n=0):
     if n == 0:
         print(f"Liking all posts of user: {TARGET_USERNAME}")
     else:
-        print("Liking first {} posts of user: {}".format(n, TARGET_USERNAME))
+        print("Liking last {} posts of user: {}".format(n, TARGET_USERNAME))
 
     i=0
 
@@ -34,7 +34,7 @@ def like_bot(INSTAGRAM_USERNAME, INSTAGRAM_PASSWORD, TARGET_USERNAME, n=0):
 
         i+=1
 
-        if i >= n:
+        if i >= n and n != 0:
             break
 
     print(f"Liked posts of user: {TARGET_USERNAME}")
